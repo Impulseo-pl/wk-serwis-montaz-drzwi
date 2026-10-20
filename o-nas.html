@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#ede9e2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>O nas - Wk Serwis Montaż Drzwi</title>
 <meta name="description" content="Wk Serwis Montaż Drzwi - wymiana i montaż drzwi zewnętrznych, wewnętrznych, bezprzylgowych i technicznych oraz wymiana okien z obróbką. Grodzisk Mazowiecki, Pruszków, Żyrardów i Warszawa.">
@@ -19,56 +20,76 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=1139ad94">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261020">
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Wk Serwis Montaż Drzwi</span><span class="sub">Grodzisk Mazowiecki</span></a>
-    <nav class="nav-links">
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="Wk Serwis Montaż Drzwi - strona główna"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-txt"><b>Wk Serwis</b><small>Montaż drzwi i&nbsp;okien</small></span></a>
+  <a class="top-phone" href="tel:+48666116316" aria-label="Zadzwoń +48 666 116 316"><span class="txt">+48 666 116 316</span><span class="arr">→</span><span class="ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></span></a>
+</header>
+<button class="menu-pill" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+<div class="menu" role="dialog" aria-label="Menu">
+  <div class="wrap menu-grid">
+    <nav class="menu-links">
+      <a href="index.html">Strona główna</a>
       <a href="oferta.html">Oferta</a>
       <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html" class="active" aria-current="page">O nas</a>
+      <a href="o-nas.html" aria-current="page">O&nbsp;nas</a>
       <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="menu-side">
+      <span class="kicker">Kontakt</span>
+      <a href="tel:+48666116316">+48 666 116 316</a>
+      <span>Gałązki 1, 96-321 Osowiec, Polska</span>
+      <span>Grodzisk Mazowiecki · Pruszków · Żyrardów · Warszawa</span>
+      <a href="kontakt.html" class="pill pill-light" style="align-self:flex-start;margin-top:10px">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+    </div>
   </div>
-</header>
+</div>
 
 <main>
-<section class="pagehead">
-  <img src="img/g12.jpg" alt="Wk Serwis Montaż Drzwi - Poznaj naszą firmę" width="1880" height="1255" decoding="async">
-  <div class="wrap">
-    <span class="eyebrow">O nas</span>
-    <h1>Poznaj naszą firmę</h1>
-    <p>Sprzedajemy i montujemy drzwi zewnętrzne, wewnętrzne i techniczne, wymieniamy też okna.</p>
+<section class="hero sub">
+  <div class="hero-art">
+    <img src="img/g12.jpg" alt="Białe drzwi w przedpokoju" width="1880" height="1255" fetchpriority="high" decoding="async">
+    <svg class="hero-x" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="40" y1="-5" x2="105" y2="78"/><line x1="96" y1="-5" x2="52" y2="105"/></svg>
+  </div>
+  <div class="wrap hero-copy">
+    <div class="inner reveal">
+      <span class="kicker">O&nbsp;nas</span>
+      <h1>Poznaj<br>naszą firmę</h1>
+      <p class="lead">Sprzedajemy i&nbsp;montujemy drzwi zewnętrzne, wewnętrzne i&nbsp;techniczne, wymieniamy też okna.</p>
+      <div class="hero-actions">
+        <a href="kontakt.html" class="pill pill-dark">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+        <a href="tel:+48666116316" class="tel-link">+48 666 116 316</a>
+      </div>
+    </div>
   </div>
 </section>
-<section>
+
+<section class="sec">
   <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g10.jpg" alt="Wk Serwis Montaż Drzwi" loading="lazy" width="1200" height="800" decoding="async"></div>
-    <div class="split-copy reveal">
-      <h2>Montaż drzwi i okien to nasza codzienna robota</h2>
-      <p class="muted">Wk Serwis to mała ekipa montażowa spod Grodziska Mazowieckiego. Na co dzień wymieniamy drzwi zewnętrzne i wewnętrzne, montujemy drzwi bezprzylgowe i techniczne, wymieniamy okna. Sami mierzymy i sami montujemy, więc za całość odpowiada jedna ekipa.</p>
-      <p class="muted">Jeździmy po Grodzisku Mazowieckim, Pruszkowie, Żyrardowie i Warszawie. Część montaży pokazujemy na bieżąco na TikToku - widać tam, jak wygląda nasza praca od demontażu po obróbkę.</p>
+    <figure class="reveal"><img src="img/g10.jpg" alt="Montaż klamki w drzwiach" width="1200" height="800" decoding="async"></figure>
+    <div class="reveal">
+      <span class="kicker">Na co dzień</span>
+      <h2>Montaż drzwi i&nbsp;okien to nasza codzienna praca</h2>
+      <p>Na co dzień wymieniamy drzwi zewnętrzne i&nbsp;wewnętrzne, montujemy drzwi bezprzylgowe i&nbsp;techniczne, wymieniamy okna. Przy okazji robimy drobne prace wokół otworu: poszerzenie, tynk, obróbkę.</p>
+      <p>Jeździmy po Grodzisku Mazowieckim, Pruszkowie, Żyrardowie i&nbsp;Warszawie. Część montaży pokazujemy na bieżąco na TikToku - widać tam, jak wygląda nasza praca od demontażu po obróbkę.</p>
+      <a href="kontakt.html" class="pill pill-dark" style="margin-top:14px">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
     </div>
   </div>
 </section>
-
-
-<section class="cta">
+<section class="dark sec">
   <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Masz robotę do zrobienia? Zapytaj o wycenę</h2>
-      <p>Bez zobowiązań - opowiedz, co trzeba zrobić, a my podpowiemy jak i wycenimy.</p>
+    <div class="intro reveal">
+      <span class="vlabel">Kim jesteśmy</span>
+      <p>Wk Serwis to mała ekipa montażowa spod Grodziska Mazowieckiego. Sami mierzymy i&nbsp;sami montujemy, więc za całość odpowiada jedna ekipa - od pierwszego telefonu do ostatniej regulacji.</p>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48666116316" class="btn btn-ghost btn-ghost-cta">+48 666 116 316</a>
+    <div class="trio">
+      <div class="trio-card reveal"><span class="num">01</span><h3>Jedna ekipa od początku do końca</h3><p>Ta sama ekipa mierzy otwór, montuje drzwi i&nbsp;robi obróbkę. Nie ma przerzucania odpowiedzialności między podwykonawcami.</p></div>
+      <div class="trio-card reveal"><span class="num">02</span><h3>Stolarka nasza albo Twoja</h3><p>Możemy dobrać i&nbsp;dowieźć drzwi lub okno pod wymiar otworu. Jeśli masz już kupione, po prostu je zamontujemy.</p></div>
+      <div class="trio-card reveal"><span class="num">03</span><h3>Stare drzwi zabieramy</h3><p>Regulujemy skrzydło i&nbsp;okucia, obrabiamy otwór, a&nbsp;stare drzwi zabieramy ze sobą.</p></div>
     </div>
   </div>
 </section>
@@ -76,38 +97,50 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Wk Serwis Montaż Drzwi</div>
-        <p>Sprzedajemy i montujemy drzwi zewnętrzne, wewnętrzne i techniczne, wymieniamy też okna.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
+    <div class="f-cta reveal">
+      <span class="kicker">Porozmawiajmy</span>
+      <a class="f-phone" href="tel:+48666116316">+48 666 116 316</a>
+      <a class="pill pill-light" href="tel:+48666116316">Zadzwoń teraz <span class="arr">→</span></a>
+    </div>
+    <div class="f-grid">
+      <div class="f-col">
         <h4>Kontakt</h4>
         <a href="tel:+48666116316">+48 666 116 316</a>
         <p>Gałązki 1, 96-321 Osowiec, Polska</p>
         <a href="https://maps.google.com/?cid=6855969109959741262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://maps.google.com/?cid=6855969109959741262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Wk Serwis Montaż Drzwi"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-        <a class="soc" href="https://www.tiktok.com/@krzysztof.waclawek" target="_blank" rel="noopener" aria-label="TikTok - Wk Serwis Montaż Drzwi"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="currentColor"/></svg></a>
       </div>
+      <div class="f-col">
+        <h4>Obszar działania</h4>
+        <p>Grodzisk Mazowiecki</p>
+        <p>Pruszków</p>
+        <p>Żyrardów</p>
+        <p>Warszawa</p>
+      </div>
+      <div class="f-col">
+        <h4>Nawigacja</h4>
+        <a href="oferta.html">Oferta</a>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="o-nas.html">O&nbsp;nas</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="f-col">
+        <h4>Obserwuj nas</h4>
+        <p>Montaże na bieżąco na TikToku, opinie w&nbsp;wizytówce Google.</p>
+        <div class="foot-soc">
+          <a class="soc" href="https://maps.google.com/?cid=6855969109959741262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - Wk Serwis Montaż Drzwi"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+          <a class="soc" href="https://www.tiktok.com/@krzysztof.waclawek" target="_blank" rel="noopener" aria-label="TikTok - Wk Serwis Montaż Drzwi"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="currentColor"/></svg></a>
+        </div>
       </div>
     </div>
-    <div class="foot-bot">
+    <div class="f-bot">
       <span>© 2026 Wk Serwis Montaż Drzwi</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o wycenę</a><a class="sr-call" href="tel:+48666116316" aria-label="Zadzwoń"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
+<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o&nbsp;wycenę</a><a class="sr-call" href="tel:+48666116316" aria-label="Zadzwoń"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
 <div class="demo-wazne" data-do="2026-10-26" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261020"></script>
 </body>
 </html>
